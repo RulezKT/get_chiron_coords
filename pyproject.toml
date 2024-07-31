@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "get-chiron-coords"
+version = "0.1.0"
+description = ""
+authors = ["RR <rudakov.de@gmail.com>"]
+readme = "README.md"
+packages = [{include = "get_chiron_coords"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
