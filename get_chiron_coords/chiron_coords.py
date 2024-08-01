@@ -323,7 +323,7 @@ def chiron_coords(dateInSeconds, chiron_file: bytes):
                         )
                         break
                 if not final_record:
-                    print("using one of the final records")
+                    print("chiron final records sec = ", dateInSeconds)
                     Ind = n_of_rec % BUFSIZ
                     data = array.array(
                         "d",
